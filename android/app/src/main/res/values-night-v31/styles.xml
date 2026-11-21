@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/sideb_ivory</item>
+        <item name="android:windowSplashScreenBackground">@color/sideb_ivory</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/sideb_splash</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/sideb_ivory</item>
+        <item name="android:statusBarColor">@color/sideb_ivory</item>
+        <item name="android:navigationBarColor">@color/sideb_ivory</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

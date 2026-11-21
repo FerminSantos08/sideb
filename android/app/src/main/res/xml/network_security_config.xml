@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Los servidores de desarrollo de SIDE B sirven HTTP dentro de la LAN. -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">10.25.50.10</domain>
+        <domain includeSubdomains="false">192.168.3.22</domain>
+        <domain includeSubdomains="false">10.223.22.245</domain>
+        <domain includeSubdomains="false">192.168.3.15</domain>
+    </domain-config>
+</network-security-config>
